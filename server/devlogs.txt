@@ -1,0 +1,25 @@
+To run server: npm run start
+
+
+
+
+
+
+
+
+
+
+
+cors (^2.8.5): Cors, or Cross-Origin Resource Sharing, is a middleware for Node.js commonly used with Express applications. The specified version (^2.8.5) indicates that the project is using Cors version 2.8.5 or any compatible minor/patch version. Cors facilitates secure communication between a web application and servers on different origins by handling HTTP headers. It allows or restricts cross-origin HTTP requests initiated by web clients, helping prevent security issues related to cross-site request forgery. In the context of a Node.js server, Cors is often utilized to enable or configure the necessary headers for cross-origin requests, providing a secure mechanism for web applications to interact with APIs hosted on different domains.
+
+dotenv (^16.3.1): Dotenv is a lightweight Node.js module that loads environment variables from a .env file into the process.env object, making it easier to manage configuration settings in a project. The specified version (^16.3.1) suggests compatibility with Dotenv version 16.3.1 or any compatible minor/patch version. Developers use Dotenv to keep sensitive information such as API keys, database URLs, and other configuration details separate from the codebase. This helps improve security and allows for easy configuration management across different environments, such as development, testing, and production, without modifying the code.
+
+express (^4.18.2): Express is a popular and minimalistic web application framework for Node.js. The specified version (^4.18.2) indicates that the project is using Express version 4.18.2 or any compatible minor/patch version. Express simplifies the process of building robust and scalable web applications by providing a set of features for routing, middleware integration, template engines, and more. It follows the middleware architecture, allowing developers to use and create middleware functions to handle various aspects of the HTTP request-response cycle. Express is widely used in creating RESTful APIs and server-side applications due to its simplicity and flexibility.
+
+nodemon (^3.0.2): Nodemon is a utility that monitors changes in Node.js applications and automatically restarts the server when files are modified. The specified version (^3.0.2) indicates that the project is using Nodemon version 3.0.2 or any compatible minor/patch version. Nodemon is particularly useful during the development phase, eliminating the need to manually stop and restart the server after code changes. It enhances the development workflow by providing a dynamic and efficient way to see immediate updates in the application without manual intervention. Developers commonly use Nodemon to streamline the development process and improve productivity.
+
+
+
+
+
+

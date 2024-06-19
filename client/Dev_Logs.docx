@@ -1,0 +1,19 @@
+1. npm create vite@latest (Installed the vite package and followed terminal instructions. Selected React and Javascript as options.)
+2. npm i react-router-dom (Allows to route to different pages)
+3. npm i axios (Connects frontend to backend api)
+4. If you want react dev tools install it, then run react-devtools on terminal
+5. npm install react-hot-toast (For frontend display of error messages)
+
+
+To run client app: npm run dev
+
+
+
+
+axios (^1.6.2): Axios is a powerful HTTP client library used in JavaScript applications for making asynchronous HTTP requests. The specified version (^1.6.2) indicates that the project is using Axios version 1.6.2 or any compatible minor/patch version. Axios simplifies the process of interacting with APIs, providing a clean and consistent interface for handling HTTP methods, handling responses, and managing request and response interceptors. It is commonly employed in both frontend (browser) and backend (Node.js) environments, facilitating the exchange of data between the application and external servers.
+
+react (^18.2.0): React is a popular JavaScript library for building user interfaces, developed by Facebook. The specified version (^18.2.0) suggests the project is using React version 18.2.0 or any compatible minor/patch version. React is known for its component-based architecture, allowing developers to create modular and reusable UI elements. It facilitates the creation of dynamic and efficient user interfaces by efficiently updating and rendering components in response to changes in application state. React is often used in conjunction with other libraries and tools to build modern, responsive, and scalable web applications.
+
+react-dom (^18.2.0): React-dom is a package that provides DOM-specific methods for React. The version (^18.2.0) indicates compatibility with React version 18.2.0 or any compatible minor/patch version. React-dom is crucial for rendering React components into the DOM (Document Object Model) of a web page. It includes functions like render() for mounting React components and hydrate() for enabling React to efficiently attach event listeners to the server-rendered HTML, enhancing the performance of React applications on the client side.
+
+react-router-dom (^6.21.0): React-router-dom is a library for handling routing in React applications. The specified version (^6.21.0) suggests compatibility with version 6.21.0 or any compatible minor/patch version. React-router-dom enables the creation of navigation and routing structures within a React application, allowing developers to define how different components are displayed based on the URL. It supports declarative route configuration, nested routes, and dynamic route matching, making it an essential tool for building single-page applications with multiple views.
